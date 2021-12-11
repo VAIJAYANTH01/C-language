@@ -10,7 +10,7 @@ int main()
         n/=10;
     }
     int s=a[0];
-    for(int i=j-2;i>=0;i--)
+    for(int i=j-2;i>0;i--)
     {
         s=(s*10)+a[i];
     }
